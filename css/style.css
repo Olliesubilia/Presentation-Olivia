@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+*{
+    font-family: 'Questrial', sans-serif;
+}
+
+.title-name{
+    font-size: 22px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.894);
+}
+
+.about-style{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.margin{
+    margin-top: 15%;
+}
+
+.main-text{
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+.lineHeight{
+    line-height: 100px;
+}
+
+
+
+.main-image{
+    max-width: 30%;
+    height: auto;
+}
+
+.arrow-icon {
+    font-size: 60px;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center !important;
+    text-align: end;
+  }
+
+  .arrow-title {
+    font-size: 30px;
+    color: rgb(184, 184, 179);
+  }
+
+  .text-right {
+    text-align: right; /* Allinea il testo a destra */
+  }
+
+  .mybold{
+    font-weight: bolder;
+    font-size: 17px;
+  }
+
+  
+
+#wrapper {
+    position: fixed;
+    top: 20px;
+    right: 70px;
+    height: 40px;
+    width: 40px;
+    z-index: 9999;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.mycanvas {
+   border: 0px !important;
+   border-color: white !important;
+   width: 600px !important;
+}
+
+a.link-speciale:hover {
+    color: rgb(187, 184, 148) !important; 
+  }
+
+.big {
+    font-size: 100px;
+}
+
+.art-image {
+    max-width: 150%;
+    height: auto;
+}
+
+.p-margin{
+    margin-right: 100px;
+    margin-left: 100px;
+}
