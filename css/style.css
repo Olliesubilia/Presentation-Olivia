@@ -95,11 +95,33 @@ a.link-speciale:hover {
 }
 
 .art-image {
-    max-width: 150%;
+    max-width: 110%;
     height: auto;
 }
 
 .p-margin{
     margin-right: 100px;
     margin-left: 100px;
+}
+
+.another-margin {
+    margin-top: 25%;
+}
+
+
+.img-size {
+    height: 500px;
+    width: 400px;
+}
+
+.ig-icon {
+    font-size: 20px;
+}
+
+.mg-lft{
+    margin-left:12%;
+}
+
+.contact-color{
+    color: rgb(184, 184, 179);
 }
