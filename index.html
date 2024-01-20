@@ -4,193 +4,179 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+    
     <title>Olivia Marie Subilia</title>
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    
     
     <link rel="stylesheet" href="./css/style.css">
-
+    
 </head>
 <body>
-
-
-<div id="wrapper">
-    <a class="text-decoration-none about-style title-name text-black mycanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">MENU</a>
-
-    <div class="offcanvas offcanvas-end mycanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-          <div>
-         </div>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body m-5 p-5 lineHeight">
-            <a class="main-text text-decoration-none text-black link-speciale" href="#about">ABOUT</a><br>
-            <a class="main-text text-decoration-none text-black link-speciale" href="#artwork">ART WORK</a><br>
-            <a class="main-text text-decoration-none text-black link-speciale" href="#contacts">CONTACT</a>
-        </div>
-      </div>
-   
-</div>
-
-<!-- <div class="overlay"></div> -->
-
     
-    
-    <div class="container m-5 container-fluid">
-        
-        <header>
-            <nav class="navbar fixed-top bg-transparent m-3 text-black navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand title-name mt-0" href="#">Olivia Marie Subilia</a>
-                    <!-- <span class="navbar-text me-3">
-                        <a class="text-decoration-none about-style title-name" href="">MENU</a>
-                    </span> -->
-                </div>
-            </nav>
-            
-             
-            
-        </header>
-        
-        <main class="margin">
-            
-            <div>
-                <h2 class="main-text mb-3 " data-aos="fade-down" data-aos-delay="500">ARTIST &<br>JUNIOR <br>FULL STACK DEVELOPER</h2>
-            </div>
-            <div>
-                <img class="main-image" src="./Media/IMG_7750.jpg" alt="">
-            </div>
-            
-    </div>
-        <!-- End container -->
-        
-
-
-        <section id="about">
-        <div class="row d-flex flex-wrap">
-            <div class="col-6 col-md-2 p-3 ms-5"><i class="bi bi-chevron-double-down arrow-icon align-items-center"><span class="arrow-title">   ABOUT</span></i></div>
-            <div class="col-6 col-md me-5 mt-3 align-items-end body main-text text-right" data-aos="fade-left" data-aos-delay="300">OLIVIA MARIE<br>SUBILIA</div>
-        </div>
-        
-        
-        <div class="container my-5 py-5">
-            
-            <div class="row">
-                <div class="col-12 col-lg-7 mb-3" data-aos="fade" data-aos-delay="300">
-                    <p class="ms-4"> 
-                        Swiss-raised in Italy since the age of four.
-                        Graduating in both front-end and back-end development processes. I am skilled in programming design, development and implementation of functional specifications.
-                        Colors and Design are my strong point. 
-                        Always have a good idea for contents and stay up-to-date with the latest trends.
-                        I believe that empathizing with users is the key to create something that resonate with their desires and aspirations. 
-                        I consider important quality of sharing and growth. Responsible and determined. My goal is to ensure that my work remains fresh and relevant. <br>
-                        I am willing to learn everything I can and I’ll be happy to create something amazing together!
-                    </p>
-                </div>
+    <!-- MAIN CONTAINER FLUID -->
+    <div class="container-fluid bg-transparent fixed-top">
+        <!-- NAVBAR -->
+        <nav class="navbar w-100 bg-transparent ">
+            <div class="container-fluid">
+                <a class="navbar-brand title-name" href="#">Olivia Marie Subilia</a>
                 
-                <div class="col-12 col-lg-4 mb-3" data-aos="fade" data-aos-delay="300">
-                    <p class="mybold text-black">
-                        PASSIONATE ABOUT WEB TECHNOLOGIES. I LOVE WORKING AT THE INTERSECTION OF CREATIVITY AND USE FRIENDLY INTERFACES.
-                    </p>
-                    <p class="mybold text-black">
-                        WHEN I'M NOT BUILDING OR EXPLORING NEW WEB EXPERIENCES, I'M PROBABLY PANTING, PALYING MUSIC OR WALKING WITH MY DOG.
-                    </p>
+                <span class="navbar-text title-name text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">MENU</span>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body offcanvas-mt">
+                        <a class="special-link text-decoration-none text-black offcanvas-font text-wrap" href="#about">ABOUT</a> <br>
+                        <a class="special-link text-decoration-none text-black offcanvas-font text-wrap" href="#art">ARTWORK</a> <br>
+                        <a class="special-link text-decoration-none text-black offcanvas-font text-wrap" href="#contacts">CONTACT</a>
+                    </div>
                 </div>
             </div>
         </div>
-        </section>
+    </nav>
+    <!-- END NAVBAR -->
 
+ <!-- CONTAINER FLUID INTRODUCTION -->
+<div class="container-fluid margin-top"> 
+    <div class="">
+        <h2 class="main-text mb-3 mx-5" data-aos="fade-down" data-aos-delay="500">ARTIST &<br>JUNIOR <br>FULL STACK DEVELOPER</h2>
+    </div>
+    <div>
+        <img class="main-image mx-5 img-opacity" src="./Media/IMG_7750.jpg" alt="">
+    </div>
+</div>
+<!-- END CONTAINER FLUID INTRODUCTION -->
+    
 
-
-
-
-
-<section id="artwork">
-
-
-<div class="container my-5 py-5">
-
+<section id="about">
+    <!-- CONTAINER FLUID ABOUT -->
+<div class="container-fluid ">
     <div class="row">
-        <div class="col-12 col-lg-7  mb-3" data-aos="fade" data-aos-delay="300">
-            <h2 class="main-text big" data-aos="fade-right" data-aos-delay="300">ART</h2>
-            <div>
-                <span class="arrow-title ms-5 ">ARTWORK</span>
-                <i class="bi bi-chevron-double-down arrow-icon align-items-center"></i> 
-            </div>
-            <div class="my-5 py-5 p-margin align-items-center ">
-                <p>
-                    Love for spray painting is an enchanting journey into a world of vivid expression. Transforming blank canvases into captivating places of imagination is my forte. Not scared of choosing bold and lively colors that reflects a vibrant personality. Every canvas becomes a playground of creativity.
-                </p>
-                <p class="text-uppercase mt-3">
-                    Drawing inspiration from music and movies, my creations are made from rhythmic beats and cinematic stories.
-                </p>
-                
-            </div>
-            <div class="another-margin" data-aos="flip-up" data-aos-delay="300">
-                <span class="arrow-title ms-5 text-black">GALLERY</span>
-                <i class="bi bi-chevron-double-down arrow-icon align-items-center"></i> <br>
-                <a href="https://www.instagram.com/olliesubilia.art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-decoration-none text-black link-speciale"><i class="bi bi-instagram align-items-center mg-lft"><span class="ig-icon"> olliesubilia.art</span></i></a>
-            </div>
+        <div class="col-12 col-md-6 my-5">
+            <i class="bi bi-chevron-double-down arrow-icon align-items-center mx-5"><span class="arrow-title">   ABOUT</span></i>
         </div>
-        <div class="col-12 col-lg-5 mb-1" data-aos="fade" data-aos-delay="300">
-           <img class="art-image m-0 img-fluid" src="./Media/IMG_7778.jpg" alt="">
+        <div class="col-12 col-md-6 my-5 p-5 body main-text text-end" data-aos="fade-left" data-aos-delay="300">
+            OLIVIA MARIE<br>SUBILIA
         </div>
     </div>
-</div>
+</div>  
+<!-- END CONTAINER FLUID ABOUT -->
 
-
-<div class="row d-flex flex-wrap">
-    <div class="col-6 col-md-2 p-3 ms-5"></div>
-    <div class="col-6 col-md me-5 mt-3 align-items-end body text-right" ></div>
-</div>
+<!-- CONTAINER XL -->
+<div class="container-xl ">
+    <div class="row">
+        <div class="col-12 col-md-6" data-aos="fade" data-aos-delay="300">
+            <p class="mx-5 text-start justify-content-center"> 
+                Swiss-raised in Italy since the age of four.
+                Graduating in both front-end and back-end development processes. I am skilled in programming design, development and implementation of functional specifications.
+                Colors and Design are my strong point. 
+                Always have a good idea for contents and stay up-to-date with the latest trends.
+                I believe that empathizing with users is the key to create something that resonate with their desires and aspirations. 
+                I consider important quality of sharing and growth. Responsible and determined. My goal is to ensure that my work remains fresh and relevant. <br>
+                I am willing to learn everything I can and I’ll be happy to create something amazing together!
+            </p>
+        </div>
+        <div class="col-12 col-md-6 p-5 text-center" data-aos="fade" data-aos-delay="200">
+            <p class="mybold text-black">
+                PASSIONATE ABOUT WEB TECHNOLOGIES. I LOVE WORKING AT THE INTERSECTION OF CREATIVITY AND USE FRIENDLY INTERFACES.
+            </p>
+            <p class="mybold text-black">
+                WHEN I'M NOT BUILDING OR EXPLORING NEW WEB EXPERIENCES, I'M PROBABLY PANTING, PALYING MUSIC OR WALKING WITH MY DOG.
+            </p>
+        </div>
+    </div>
+</div> 
+<!-- END CONTAINER XL -->
 </section>  
+<!-- END SECTION ABOUT -->
+
+
+
+<!-- SECTION ART -->
+<section id="art">
+<!-- CONTAINER FLUID ART -->
+<div class="container-fluid">
+<div class="row">
+    <div class="col-12 col-lg-7 my-5" data-aos="fade" data-aos-delay="300">
+        <h2 class="main-text big" data-aos="fade-right" data-aos-delay="300">ART</h2>
+        <div>
+            <span class="arrow-title ms-5 ">ARTWORK</span>
+            <i class="bi bi-chevron-double-down arrow-icon align-items-center"></i> 
+        </div>
+        <div class="p-5 margin-left margin-right align-items-center">
+            <p>
+                Love for spray painting is an enchanting journey into a world of vivid expression. Transforming blank canvases into captivating places of imagination is my forte. Not scared of choosing bold and lively colors that reflects a vibrant personality. Every canvas becomes a playground of creativity.
+            </p>
+            <p class="text-uppercase">
+                Drawing inspiration from music and movies, my creations are made from rhythmic beats and cinematic stories.
+            </p>
+            
+        </div>
+        <div class="mx-5" data-aos="flip-up" data-aos-delay="300">
+            <span class="arrow-title text-black">GALLERY</span>
+            <i class="bi bi-chevron-double-down arrow-icon align-items-center"></i> <br>
+            <a href="https://www.instagram.com/olliesubilia.art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="mx-5 text-decoration-none text-black special-link"><i class="bi bi-instagram align-items-center"><span class="ig-icon"> olliesubilia.art</span></i></a>
+        </div>
+    </div>
+    <div class="col-12 col-lg-5" data-aos="fade" data-aos-delay="300">
+       <img class="art-image m-0 img-fluid img-opacity" src="./Media/IMG_7778.jpg" alt="">
+    </div>
+</div>
+</div>
+<!-- END CONTAINER FLUID ART -->
+</section>
+<!-- END SECTION ART -->
 
 
 
 
 <div>
-        <h2 class="main-text m-5 ">CURRENTLY <br>IN COPENHAGEN, <br>DENMARK</h2>
+    <h2 class="main-text m-5 ">CURRENTLY <br>IN COPENHAGEN, <br>DENMARK</h2>
 </div>
-
 
 
 
 <section id="contacts">
-<div class="container my-5 py-5">
-            
-    <div class="row">
-        <div class="col-12 col-lg-7 mb-3" data-aos="fade" data-aos-delay="300">
-            <p class="ms-4"> 
-                <span class="mybold contact-color">EMAIL:</span> subiliaoliviamarie@gmail.com
-                <br>
-                <span class="mybold contact-color">PHONE NUMBER:</span> +39 3388254224
-                <br>
-                <span class="mybold contact-color">LINKEDIN:</span> https://www.linkedin.com/in/olivia-marie-subiliawebdeveloper/
-                <br>
-                <span class="mybold contact-color">GITHUB:</span> https://github.com/Olliesubilia
-            </p>
-        </div>
+    <div class="container my-5 py-5">
+                
+        <div class="row">
+            <div class="col-12 col-lg-7 mb-3" data-aos="fade" data-aos-delay="300">
+                <p class="ms-4"> 
+                    <span class="mybold contact-color">EMAIL:</span> subiliaoliviamarie@gmail.com
+                    <br>
+                    <span class="mybold contact-color">PHONE NUMBER:</span> +39 3388254224
+                    <br>
+                    <span class="mybold contact-color">LINKEDIN:</span> https://www.linkedin.com/in/olivia-marie-subiliawebdeveloper/
+                    <br>
+                    <span class="mybold contact-color">GITHUB:</span> https://github.com/Olliesubilia
+                </p>
+            </div>
+    
+    <div class="col-12 col-lg-4 mb-3" data-aos="fade" data-aos-delay="300">
+        <p class="mybold text-black">
+            <div class="align-items-end body main-text text-right" data-aos="fade-left" data-aos-delay="300">CONTACTS</div>
+            <i class="bi bi-chevron-double-left arrow-icon align-items-center"></i>
+            <span class="arrow-title">HERE</span>         
+        </p>
+       
+    </div>
+    
+    </section>     
 
-<div class="col-12 col-lg-4 mb-3" data-aos="fade" data-aos-delay="300">
-    <p class="mybold text-black">
-        <div class="align-items-end body main-text text-right" data-aos="fade-left" data-aos-delay="300">CONTACTS</div>
-        <i class="bi bi-chevron-double-left arrow-icon align-items-center"></i>
-        <span class="arrow-title">HERE</span>         
-    </p>
-   
+
+
 </div>
+<!-- END MAIN CONTAINER-FLUID -->
 
-</section>     
-    </main>
-    
-    
-    
-    
-    
+
+
+
 
 
 
